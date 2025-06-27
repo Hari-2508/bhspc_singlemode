@@ -1,45 +1,22 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
-*$py.class
-
-# C extensions
 *.so
-*.pyd
 *.dll
+*.pyd
 
-# Virtual environment
+# Virtual environments
 .venv/
 env/
 venv/
 
-# PyCharm
+# PyCharm files
 .idea/
 
-# VS Code
-.vscode/
-
-# Test and build artifacts
-build/
-dist/
+# Installer info
 *.egg-info/
-*.egg
+dist/
+build/
 
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
-
-# Compiled C files
-*.o
-*.out
-*.a
-
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints/
-
-# macOS
-.DS_Store
-
-# Windows
-Thumbs.db
-ehthumbs.db
+# Logs
+*.log

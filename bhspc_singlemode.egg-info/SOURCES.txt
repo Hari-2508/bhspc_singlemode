@@ -1,7 +1,0 @@
-pyproject.toml
-setup.py
-bhspc_singlemode.egg-info/PKG-INFO
-bhspc_singlemode.egg-info/SOURCES.txt
-bhspc_singlemode.egg-info/dependency_links.txt
-bhspc_singlemode.egg-info/requires.txt
-bhspc_singlemode.egg-info/top_level.txt

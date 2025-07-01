@@ -10,8 +10,8 @@ if use_simulation:
     spc.start_measurement()
     histogram = spc.get_histogram()
 else:
-    dll_path = r"C:\Users\purushothaman\PycharmProjects\bhspc_singlemode\spcm64.dll"
-    ini_path = r"C:\Users\purushothaman\PycharmProjects\bhspc_singlemode\spcm.ini"
+    dll_path = r"your .dll file location"
+    ini_path = r"your .ini file location"
     spc = BHSingleMode(dll_path, ini_path)
     spc.configure({
         10: 10,   # CFD_LOW
